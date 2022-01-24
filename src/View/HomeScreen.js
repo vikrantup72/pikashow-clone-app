@@ -33,7 +33,7 @@ export default function HomeScreen() {
       logoUrl: 'https://cdn-icons-png.flaticon.com/512/185/185977.png',
       onIconPress: () => {
         console.log('Telegram Is Click');
-        Linking.openURL('https://telegram.me/i_am_haresh').catch(() => {
+        Linking.openURL('#').catch(() => {
           console.log('Telegram Error');
         });
       },
@@ -43,7 +43,7 @@ export default function HomeScreen() {
       logoUrl: 'https://cdn-icons-png.flaticon.com/512/185/185983.png',
       onIconPress: () => {
         console.log('Youtube Is Click');
-        Linking.openURL('https://www.youtube.com/c/CodeDiggers').catch(() => {
+        Linking.openURL('#').catch(() => {
           console.log('Youtube Error');
         });
       },
@@ -53,7 +53,7 @@ export default function HomeScreen() {
       logoUrl: 'https://cdn-icons-png.flaticon.com/512/1484/1484822.png',
       onIconPress: () => {
         console.log('Website Is Click');
-        Linking.openURL('http://codediggers.gq').catch(() => {
+        Linking.openURL('#').catch(() => {
           console.log('Website Error');
         });
       },
@@ -63,7 +63,7 @@ export default function HomeScreen() {
       logoUrl: 'https://cdn-icons-png.flaticon.com/512/1028/1028917.png',
       onIconPress: () => {
         console.log('Website Is Click');
-        Linking.openURL('http://codediggers.gq').catch(() => {
+        Linking.openURL('#').catch(() => {
           console.log('Website Error');
         });
       },
@@ -91,7 +91,7 @@ export default function HomeScreen() {
       onIconPress: () => {
         console.log('Website Is Click');
 
-        Linking.openURL('http://mrhp.gq').catch(() => {
+        Linking.openURL('#').catch(() => {
           console.log('Website Error');
         });
       },
